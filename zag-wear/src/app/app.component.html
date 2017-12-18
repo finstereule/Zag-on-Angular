@@ -1,0 +1,38 @@
+<header>
+  <div class="logoDiv"> <a href="index.php" title="Main page"><img id="top_logo" src="assets/img/logo.png" alt="logoImage"></a></div>
+  <div id="nav_menu" class="topnav">
+    <a href="javascript:void(0);" class="icon" id="adaptive_menu">&#9776;</a>
+    <a href="">Главная</a>
+    <a href="">Каталог</a>
+    <a href="">Индивидуальный заказ</a>
+    <a href="">Доставка</a>
+    <a href="">Контакты</a>
+  </div>
+
+  <div class="photo_content">
+    <div id="header_small_images">
+      <img src="assets/img/header_small_image1.jpg" alt="saddle pad image">
+      <br><br>
+      <img src="assets/img/header_small_image2.jpg" alt="saddle pad image">
+    </div>
+    <img id="header_big_image" src="assets/img/header_big_image.jpg" alt="saddle pad image">
+  </div>
+</header>
+
+<app-collection-slider
+  *ngFor="let item of newCollection"
+></app-collection-slider>
+
+<footer>
+  <span id="tel">+38(000)555-55-55</span>
+  <div id="footer_center_box">
+    <img id="footer_logo" src="assets/img/logo.png" alt="logo"><br>
+    <h2>Custom Equine Wear</h2>
+    <span>&copy; ZAG Custom Equine Wear. All rights reserved.</span>
+  </div>
+  <span id="social">Следите за новостями:<br>
+		<a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+		<a href="https://goo.gl/1EBpzU"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+		<a href="https://www.instagram.com/zag_equine_wear/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	</span>
+</footer>

@@ -1,0 +1,113 @@
+.new_collection{
+  clear: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.new_collection h1{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.new_collection #collection_slider{
+  float: left;
+  text-align: center;
+  margin-left: 1%;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.new_collection #collection_slider .item{
+  display: inline-block;
+  padding: 15px 10px;
+  height: 300px;
+  background-color: rgb(229, 231, 233);
+}
+
+.new_collection #collection_slider .item img{
+  max-width: 100%;
+}
+
+.new_collection #collection_slider .item h2{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.new_collection #collection_slider .item p{
+  height: 50px;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2em;
+}
+
+.new_collection #collection_slider .item span{
+  font-size: 1.7vw;
+}
+
+
+@media screen and (max-width: 983px){
+
+  .new_collection h1{
+    padding-top: 25px;
+  }
+
+  .new_collection #collection_slider .item h2{
+    font-size: 1.8vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .new_collection #collection_slider .item p{
+    font-family: 'Karla', sans-serif;
+    height: 40px;
+    font-size: 1.6vw;
+  }
+
+  .new_collection #collection_slider .item span{
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 656px) {
+
+  .new_collection h1{
+    padding-top: 15px;
+  }
+
+  .new_collection #collection_slider .item h2{
+    font-size: 2.7vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .new_collection #collection_slider .item p{
+    font-family: 'Karla', sans-serif;
+    font-size: 2.1vw;
+  }
+
+  .new_collection #collection_slider .item span{
+    font-size: 3vw;
+  }
+}
+
+
+@media screen and (max-width: 450px){
+
+  .new_collection h1{
+    padding-top: 15px;
+  }
+  .new_collection #collection_slider .item h2{
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .new_collection #collection_slider .item p{
+    font-family: 'Karla', sans-serif;
+    height: 35px;
+    font-size: 2.7vw;}
+
+  .new_collection #collection_slider .item span{
+    font-size: 3.4vw;
+  }
+}
